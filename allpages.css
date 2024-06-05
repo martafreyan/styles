@@ -1,0 +1,29 @@
+/* Footer */
+.footer {
+  align-self: end;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tooltip-container {
+  max-width: 250px;
+  padding: 10px;
+  background-color: var(--light-color);
+  font-weight: 500;
+}
+
+.tooltip-container-long {
+  max-width: 350px;
+  max-height: 350px;
+  pointer-events: auto;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: var(--ground_color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-weight: 500;
+}
