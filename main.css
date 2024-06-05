@@ -1,0 +1,66 @@
+/* Global Styles */
+:root {
+  --ground-color-v2: #fbfbfb;
+  --block-ground-color: #ffffff;
+  --accent-color: #2bcccc;
+  --disabled-color: #d9d9d9;
+  --primary-text-color: #5a5a5a;
+  --secondary-text-color: #a0a0a0;
+  --checkbox-color: #d3d8d9;
+  --border-color: #eee;
+  --search-color: #00b2ff;
+  --gritr-color: #33c6001a;
+
+  --ground_color: white;
+  --primary-color: #2f3440;
+  --secondary-color: #dd7e43;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --error-color: #ff7b83;
+  --success-color: #28a745;
+  --disable-color: #a7a19d;
+  --back-color: #f0f0f0;
+  --axis-background: #f6f6f6;
+  --info-color: #f1f1f1;
+  --chart-green-color: #91c559;
+  --chart-orange-color: #ffc756;
+  --chart-blue-color: #577ecb;
+  --table-border-color: #c2c2c2;
+  --secondary-hover: #e09262;
+  --primary-hover: #464c5a;
+  --search-hover: rgba(224, 146, 98, 0.3);
+  --npc-green: rgba(3, 151, 37, 0.5);
+  --npc-cell-green: rgba(1, 175, 42, 0.2);
+  --npc-cell-green2: rgba(1, 175, 42, 0.4);
+  --npc-blue: rgba(0, 87, 248, 0.5);
+  --npc-violet: #bc9ed7;
+  --npc-cell-violet: #d9c0ee;
+  --npc-cell-blue: rgba(0, 87, 248, 0.2);
+  --npc-cell-orange: #f5b48c;
+  --eula-header: #d9d9d9;
+  --eula-body: #f5f5f5;
+  --eula-text: #ebebeb;
+  --eula-body-hover: #f3e9e3;
+  --shadows-color: #c2c2c2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 12px;
+  background-color: var(--ground-color-v2);
+  color: var(--primary-text-color);
+  overflow-y: auto;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
